@@ -1,16 +1,18 @@
-*** INTRODUCTION
+#Welcome to Orçamento. 
 
-Welcome to Orçamento. [this project needs a better name]
+[this project needs a better name]
+
+You can view a live instance of the [application running in this link](http://gastospublicos.com.br/).
 
 This is a website written in Java (using Apache Jena) to browse the Brazilian Federal Government's expenses database in RDF format.
 
 I need a Java project manager to... manage this. Seriously, I'm just adding everything to one package and manually importing stuff with vim and so on. Please help.
 
-*** LICENSE
+## LICENSE
 
 This is licensed under the GNU General Public License, version 3.
 
-*** INSTRUCTIONS
+## INSTRUCTIONS
 
 0. Download Apache Jena 2.1.12 (Jena 3 is not yet supported!) binaries from http://jena.apache.org and set $LOADERPATH on gettdb.sh in order to point to tdbloader2.
 
@@ -26,14 +28,15 @@ $ ./inflacao.sh > ./r/static/Inflation.json
 4. Start the website
 $ ./run
 
-*** CAVEATS
+## CAVEATS
 
 I'm an iPhone programmer. I can't make websites. I can't program in Java. I can't design straight. 90% of this project is pretty much a glue of Bootstrap, d3.js, random stylesheets, random JavaScript plugins etc. If you have more experience than me on the area (which is absolutely easy) **please** contribute by making this less ugly.
 
 Even though there's this, I think the most worrisome thing in my code is the fact that I use this weird JavaScript element generating system instead of a good templating system like Mustache. Maybe I should use that *through* JavaScript, or find a better way to serve my content in the Java side.
 
-*** STUFF ABOUT THE PROJECT
-(since this likely only interests Brazilians regarding the credibility of this data, this fragment will be written in Portuguese)
+## STUFF ABOUT THE PROJECT (Portuguese only)
+
+Since this likely only interests Brazilians regarding the credibility of this data, the following paragraphs fragment will be written in Portuguese.
 
 A partir da aprovação da Lei de Acesso à Informação em 2011, a cláusula de que dados orçamentários governamentais deveriam ser publicados em formato legível por máquina começou a ser implementada. De qualquer modo, isso resultou em diversas bases de dados para registrar gastos públicos, sendo as principais:
 
